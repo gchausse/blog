@@ -17,4 +17,4 @@ def post_list(request):
     return render(request, 'post_list.html', context)
 
 def produit(request):
-    
+    pass    

@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from .views import homepage, post_list
+from .views import homepage, post_list, produit
 
 urlpatterns = [
     url(r'^$', homepage),
