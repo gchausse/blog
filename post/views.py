@@ -15,3 +15,6 @@ def post_list(request):
         "posts" : posts
     }
     return render(request, 'post_list.html', context)
+
+def produit(request):
+    
